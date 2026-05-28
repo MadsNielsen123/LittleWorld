@@ -15,7 +15,7 @@ docker compose up -d
 ## Run backend
 
 ```bash
-cd /tmp/workspace/MadsNielsen123/LittleWorld/backend
+cd backend
 dotnet run
 ```
 
@@ -24,7 +24,7 @@ Backend URL: `http://localhost:5102`
 ## Run frontend
 
 ```bash
-cd /tmp/workspace/MadsNielsen123/LittleWorld/frontend
+cd frontend
 npm install
 npm run dev
 ```
